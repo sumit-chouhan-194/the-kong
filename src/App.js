@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// Import slick css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./App.css";
+import "./Root.css";
+import About from "./components/About";
+import { Utilities } from "./components/Utilities";
+import TheKong from "./components/TheKong";
+import MintNft from "./components/MintNft";
+import Hero from "./components/Hero";
+import Parteners from "./components/Parteners";
+import RoadMap from "./components/RoadMap";
+import "aos/dist/aos.css"; 
+import Team from "./components/Team";
+import Faqs from "./components/Faqs";
+import { useEffect } from "react";
+import AOS from "aos";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration:3000,
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Utilities />
+      <TheKong />
+      <MintNft />
+      <RoadMap />
+      <Parteners />
+      <Team />
+      <Faqs />
+    </>
   );
 }
 
