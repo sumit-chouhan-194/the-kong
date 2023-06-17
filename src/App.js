@@ -18,15 +18,17 @@ import Team from "./components/Team";
 import Faqs from "./components/Faqs";
 import { useEffect } from "react";
 import AOS from "aos";
+import Preloader from "./components/PreLoder";
 function App() {
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       duration:3000,
     });
   }, []);
   return (
     <>
+    <Preloader/>
       <Hero />
       <About />
       <Utilities />

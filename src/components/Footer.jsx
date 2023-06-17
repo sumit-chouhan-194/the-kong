@@ -13,8 +13,8 @@ const Footer = () => {
       <section className="py-sm-5 py-4  overflow-hidden mt_-2">
         <div className="myContainer">
             <div className="d-flex flex-column align-items-center position-relative" data-aos="zoom-in">
-                <div>
-                  <img src={f_kong} alt="kong" />
+                <div className="text-center">
+                  <img src={f_kong} alt="kong" className="f_kong"/>
                 </div>
                 <div className="d-flex gap-4 pt-3 mt-2 position-relative z-3">
                     <div className="f_even_icon"><img src={f_twitter} alt="twitter" /></div>

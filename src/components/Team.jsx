@@ -16,12 +16,14 @@ const Team = () => {
           <Row className="justify-content-between team_row position-relative">
             <div className="col-md-4  d-flex flex-column align-items-center align-items-md-start" data-aos="fade-right">
               <div className="team_men">
-                <h4 className=" ff_montserrt fw-bold fs_md color_white mb-0">
-                  Jaylon Schleifer
-                </h4>
-                <p className=" ff_montserrt fs_md fw-normel color_white mb-0 pt-2 pb-1">
-                  Carter Septimus
-                </p>
+                <div className="d-flex align-items-center align-items-md-start flex-column">
+                  <h4 className=" ff_montserrt fw-bold fs_md color_white mb-0">
+                    Jaylon Schleifer
+                  </h4>
+                  <p className=" ff_montserrt fs_md fw-normel color_white mb-0 pt-2 pb-1">
+                    Carter Septimus
+                  </p>
+                </div>
                 <div className="mt-4 text-center text-md-start team_men_img">
                   <img src={team1} alt="team-men" />
                 </div>
@@ -60,12 +62,13 @@ const Team = () => {
             <Row className="justify-content-between  position-lg-relative">
               <div className="col-md-3  d-flex flex-column align-items-center align-items-md-start" data-aos="fade-right">
                 <div className="team_men">
-                <h4 className=" ff_montserrt fw-bold fs_md color_white mb-0 ">
+                <div className="d-flex align-items-center align-items-md-start flex-column"> <h4 className=" ff_montserrt fw-bold fs_md color_white mb-0 ws_md_no">
                   Talan Passaquindici Arcand
                 </h4>
                 <p className=" ff_montserrt fs_md fw-normel color_white mb-0 pt-2 pb-1">
                   Jakob Ekstrom Bothman
                 </p>
+                </div>
                 <div className="mt-4  text-center text-md-start ">
                   <img src={team2} alt="team-men" className="team_men_img rounded-4"/>
                 </div>
@@ -101,19 +104,20 @@ const Team = () => {
           </div>
           <div className="pt-5 mt-5">
             <Row className="justify-content-between team_row_t position-relative">
-              <div className="col-md-4  d-flex flex-column align-items-center align-items-md-start" data-aos="fade-right">
-                <div className="team_men"><h4 className=" ff_montserrt fw-bold fs_md color_white mb-0">
+           <div className="col-md-4  d-flex flex-column align-items-center align-items-md-start" data-aos="fade-right">
+                <div className="team_men"> <div className="d-flex align-items-center align-items-md-start flex-column"><h4 className=" ff_montserrt fw-bold fs_md color_white mb-0">
                   Alfonso Franci
                 </h4>
                 <p className=" ff_montserrt fs_md fw-normel color_white mb-0 pt-2 pb-1">
                   Alfonso Dokidis
                 </p>
+                </div>
                 <div className="mt-4 text-center text-md-start team_men_img">
                   <img src={team3} alt="team-men"/>
                 </div>
                 </div>
               </div>
-              <div className="col-md-6 pt-4 pt-md-0" data-aos="fade-left">
+              <div className="col-md-6 py-4 py-md-0" data-aos="fade-left">
                 <h4 className=" ff_montserrt fw-semibold fs_md color_white mb-0 text-center text-md-start">
                   @Alfonso Franci
                 </h4>

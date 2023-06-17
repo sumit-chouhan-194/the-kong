@@ -6,10 +6,10 @@ import MyNav from "./MyNav";
 const Hero = () => {
   return (
     <>
-      <header className="min-vh-lg-100 d-flex flex-column mt_-2">
+      <header className="min-vh-xl-100 d-flex flex-column mt_-2">
         <MyNav />
         <section className="hero_bg position-relative hero_s flex-grow-1 pb-5 mt_-2 overflow-hidden">
-          <div className="myContainer pb-5 position-relative z-3 mb-5">
+          <div className="myContainer pb-sm-5 position-relative z-3 mb-5">
             <div className="d-flex flex-column align-items-center pt-md-4 pt-3 pb-5">
               <h1>
                 <span className="d-block">welcome</span> to
@@ -21,12 +21,12 @@ const Hero = () => {
               </p>
               <div className="d-flex gap-2 pt-4 flex-column align-items-center flex-sm-row mb-md-5">
                 <div class="btn-holder">
-                  <button class="hero_btn  hover-border-11">
+                  <button class="hero_btn  hover-border-11 nav_btn_sm">
                     <span>Whitepaper</span>
                   </button>
                 </div>
-                <button className="hero_btn" id="hero_btn_middle">mint</button>
-                <button className="hero_btn">opensea</button>
+                <button className="hero_btn mt-3 mt-sm-0" id="hero_btn_middle">mint</button>
+                <button className="hero_btn mt-3 mt-sm-0">opensea</button>
               </div>
             </div>
           </div>

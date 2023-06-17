@@ -23,7 +23,7 @@ const MintNft = () => {
           <Row className="justify-content-lg-between align-items-center justify-content-center position-relative">
             <div className="col-md-4 col-sm-10" data-aos="fade-right">
               <div className="d-flex justify-content-center nft_bottle">
-                <img src={bottle} alt="wine_bottle" className="w-75" />
+                <img src={bottle} alt="wine_bottle"className="wine_bottle"/>
               </div>
             </div>
             <div
@@ -39,18 +39,18 @@ const MintNft = () => {
                       <p>of 10,000 minted</p>
                     </div>
                     <div className="col-4">
-                      <h4>9999</h4>
-                      <p>of 10,000 minted</p>
+                      <h4>.2 ETH</h4>
+                      <p>per NFT</p>
                     </div>
                   </div>
                   <div className="d-flex justify-content-between pt-4">
                     <div className="col-4">
-                      <h4>9999</h4>
-                      <p>of 10,000 minted</p>
+                      <h4>Max 9</h4>
+                      <p>NFTs per transaction</p>
                     </div>
                     <div className="col-4">
-                      <h4>9999</h4>
-                      <p>of 10,000 minted</p>
+                      <h4>Max 2</h4>
+                      <p>Transaction per wallet</p>
                     </div>
                   </div>
                 </Row>
